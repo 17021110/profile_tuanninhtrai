@@ -1,8 +1,17 @@
-import '../styles/globals.css'
-import type { AppProps } from 'next/app'
+import "../styles/globals.css";
+import type { AppProps } from "next/app";
+import CommonLayout from "../components/Layout/CommonLayout";
 
-function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+if (typeof window !== "undefined") {
+  window.history.scrollRestoration = "manual";
 }
 
-export default MyApp
+function MyApp({ Component, pageProps, router }: AppProps) {
+  return (
+    <CommonLayout router={router}>
+      <Component {...pageProps} key={router.route} />
+    </CommonLayout>
+  );
+}
+
+export default MyApp;
