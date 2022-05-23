@@ -28,7 +28,7 @@ const Home: NextPage = () => {
           css={{ backdropFilter: "blur(10px)" }}
           userSelect="none"
         >
-          Hello, I&apos;m a front-end developer based in VietNam!
+          Hello, Im a front-end developer based in VietNam!
         </Box>
       </Section>
 
