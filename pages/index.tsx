@@ -71,7 +71,7 @@ const Home: NextPage = () => {
         <Box>
           I am 24 years old this year but people often say that I will forever be 18 years old. I am very handsome. I have more than 1 year experience in Reactjs and making web products for the Japanese market
           I graduated with a bachelor degree from University of Technology - Hanoi National University
-          My direction in the near future is to develop skills in Fontend. I'm also happy to learn more about some other Fontend languages ​​like vuejs, next js,...
+          My direction in the near future is to develop skills in Fontend. Im also happy to learn more about some other Fontend languages ​​like vuejs, next js,...
         </Box>
           
         <Box justifyContent="center" display="flex" my={4}>
@@ -105,7 +105,7 @@ const Home: NextPage = () => {
         <Box display="flex">
           <Box fontWeight={600} marginRight="20px">2020</Box>
           <Box>
-            graduated with a bachelor's degree from the University of Technology - Hanoi National University
+            graduated with a bachelors degree from the University of Technology - Hanoi National University
            </Box>
         </Box>
 
