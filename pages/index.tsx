@@ -69,9 +69,11 @@ const Home: NextPage = () => {
           Work
         </Heading>
         <Box>
-          I am 24 years old this year but people often say that I will forever be 18 years old. I am very handsome. I have more than 1 year experience in Reactjs and making web products for the Japanese market</Box>
+          I am 24 years old this year but people often say that I will forever be 18 years old. I am very handsome. I have more than 1 year experience in Reactjs and making web products for the Japanese market
           I graduated with a bachelor's degree from University of Technology - Hanoi National University
           My direction in the near future is to develop skills in Fontend. I'm also happy to learn more about some other Fontend languages ​​like vuejs, next js,...
+        </Box>
+          
         <Box justifyContent="center" display="flex" my={4}>
           <NextLink href="/works" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
