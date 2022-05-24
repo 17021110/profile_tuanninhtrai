@@ -38,7 +38,7 @@ const Home: NextPage = () => {
             </Heading>
             <Text>Making weird things with web technologies.</Text>
             <Text fontSize="14px" fontStyle={"italic"}>
-              (FE developer)
+              (FE developer / spice of life)
             </Text>
           </Box>
           <Box
@@ -113,18 +113,42 @@ const Home: NextPage = () => {
             working at BUNBU (react js developer position)
            </Box>
         </Box>
+      </Section>
 
+      <Section delay={"0.5"}>
+        <Heading as="h3" variant="section-title">
+          Profile
+        </Heading>
+        <Box display="flex">
+          <Box fontWeight={600}  width="75px">sex</Box>
+          <Box>
+            male
+           </Box>
+        </Box>
 
-       
+        <Box display="flex">
+          <Box fontWeight={600}  width="75px">Number</Box>
+          <Box>
+            0365946422
+           </Box>
+        </Box>
+        <Box display="flex">
+          <Box fontWeight={600} width="75px">address</Box>
+          <Box>
+            246 đường mĩ đình từ liêm hà nội
+           </Box>
+        </Box>
       </Section>
 
       {/* love */}
-      <Section delay={"0.5"}>
+      <Section delay={"0.6"}>
         <Heading as="h3" variant="section-title">
           I ♥
         </Heading>
           Soccer, Gaming(lol,csgo,aoe,...)
       </Section>
+
+      
     </Container>
   );
 };

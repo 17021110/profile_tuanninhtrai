@@ -14,7 +14,7 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 import { HamburgerIcon } from "@chakra-ui/icons";
-import { BsLinkedin } from "react-icons/bs";
+import { BsLinkedin, BsFacebook } from "react-icons/bs";
 import { HiOutlineMail } from "react-icons/hi";
 
 import Logo from "./Logo";
@@ -79,6 +79,19 @@ const Navbar = (props: any) => {
           <LinkItem href="/posts" path={path}>
             Posts
           </LinkItem>
+         
+
+          <LinkItem
+            target="_blank"
+            href="https://www.facebook.com/profile.php?id=100011789272335"
+            path={path}
+            display="inline-flex"
+            alignItems="center"
+            style={{ gap: 4 }}
+            pl={2}
+          >
+            <BsFacebook />
+          </LinkItem>
 
           <LinkItem
             target="_blank"
@@ -126,6 +139,13 @@ const Navbar = (props: any) => {
                 <NextLink href="/posts" passHref>
                   <MenuItem as={Link}>Posts</MenuItem>
                 </NextLink>
+
+                <MenuItem
+                  as={Link}
+                  href="https://www.facebook.com/profile.php?id=100011789272335"
+                >
+                  My Facebook{" "}
+                </MenuItem>
                 
                 <MenuItem
                   as={Link}
