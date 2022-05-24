@@ -10,10 +10,8 @@ import {
   Text,
 } from "@chakra-ui/react";
 import type { NextPage } from "next";
-// import Section from "../components/Sections";
 import NextLink from "next/link";
 import Section from "../components/Section";
-// import { BioSection, BioYear } from "../components/Bio";
 
 const Home: NextPage = () => {
   return (

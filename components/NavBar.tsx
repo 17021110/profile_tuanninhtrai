@@ -14,7 +14,8 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 import { HamburgerIcon } from "@chakra-ui/icons";
-// import { IoLogoGithub } from "react-icons/io5";
+import { BsLinkedin } from "react-icons/bs";
+import { HiOutlineMail } from "react-icons/hi";
 
 import Logo from "./Logo";
 import Button from "./Button";
@@ -78,6 +79,29 @@ const Navbar = (props: any) => {
           <LinkItem href="/posts" path={path}>
             Posts
           </LinkItem>
+
+          <LinkItem
+            target="_blank"
+            href="https://www.linkedin.com/in/tu%E1%BA%A5n-tr%E1%BA%A7n-v%C4%83n-63184721b"
+            path={path}
+            display="inline-flex"
+            alignItems="center"
+            style={{ gap: 4 }}
+            pl={2}
+          >
+            <BsLinkedin />
+          </LinkItem>
+
+          <LinkItem
+            href="mailto:trantuan05011999@gmail.com"
+            path={path}
+            display="inline-flex"
+            alignItems="center"
+            style={{ gap: 4 }}
+            pl={2}
+          >
+            <HiOutlineMail />
+          </LinkItem>
          
         </Stack>
 
@@ -102,6 +126,19 @@ const Navbar = (props: any) => {
                 <NextLink href="/posts" passHref>
                   <MenuItem as={Link}>Posts</MenuItem>
                 </NextLink>
+                
+                <MenuItem
+                  as={Link}
+                  href="https://www.linkedin.com/in/tu%E1%BA%A5n-tr%E1%BA%A7n-v%C4%83n-63184721b"
+                >
+                  My Linkedin{" "}
+                </MenuItem>
+
+                <MenuItem as={Link} href="mailto:trantuan05011999@gmail.com">
+                  Mail me
+                </MenuItem>
+
+                
                
               </MenuList>
             </Menu>
