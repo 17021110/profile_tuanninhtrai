@@ -46,7 +46,7 @@ const Works: NextPage = () => {
   return (
     <Container p={4} maxW="container.sm">
       {data.map((item:any, index) => {
-        return (<Section delay={`${0.1+index*0.2}`}>
+        return (<Section delay={`${0.1+index*0.2}`} key={item?.id}>
           <Heading as="h3" variant="section-title">
             {item?.name}
           </Heading>
