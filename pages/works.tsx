@@ -53,9 +53,6 @@ const Works: NextPage = () => {
           <Tabble data={item}></Tabble>
         </Section>)
         })}
-      
-      
-      
     </Container>
   );
 };
